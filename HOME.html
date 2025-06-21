@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saree & Clothes Dreams!</title>
+    <meta name="description" content="Tailoring clothes according to new trends.">
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #d4820a;
+            margin-top: 20px;
+        }
+
+        .categories-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .category {
+            width: 250px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .category:hover {
+            transform: scale(1.05);
+        }
+
+        .category img {
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .category h3 {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 15px;
+            font-size: 16px;
+            color: white;
+            background-color: #d4820a;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #b96e07;
+        }
+
+         Back Button 
+        .back-button {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #d4820a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #b96e07;
+
+        }
+
+        /* Adding background image with specific height and width */
+        body {
+            background-image: url('gold-background.jpg'); /* Replace with your image path */
+            background-size: 1366px 1080px; /* Set the background image size to width 655px and height 1366px */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            font-family: Arial, sans-serif; /* For better font appearance */
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        Styling the social media icons 
+        .social-icons a {
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <h2> Featured Categories </h2>
+<style>
+    .categories-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* Space between items */
+    }
+
+    .category {
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .category img {
+        width: 75px;
+        height: 100px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+
+<style>
+    .category img {
+        width: 120px;
+        height: 150px;
+    }
+</style>
+
+
+<div class="categories-container">
+    <div class="category">
+        <img src="saree.jpg" alt="Sarees">
+        <h3>Sarees</h3>
+       <a href="Saree Explore.html" class="btn" style="background-color: #d4820a; color: white;">Explore</a>
+    </div>
+
+    <div class="category">
+        <img src="Dresses for Women.png" alt="Dresses">
+        <h3>Dresses</h3>
+        <a href="Dresses Explore.html" class="btn" style="background-color: #d4820a; color: white;">Explore</a>
+    </div>
+
+     <div class="category">
+        <img src="T-shirt.jpg" alt="Dresses">
+        <h3>T-shirt</h3>
+        <a href=" T-shirt Explore.html" class="btn" style="background-color: #d4820a; color: white;">Explore</a>
+    </div>
+
+</div>
+
+
+
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+
+    <!-- Back Button -->
+    <button class="back-button" onclick="goBack()"> Go Back</button>
+
+    <script>
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+
+</body>
+</html>
